@@ -2,13 +2,13 @@
   height: 100vh;
 }
 
-.header_container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header_navigation ul {
+.header__navigation ul {
   font-size: 1.4rem;
 }
 
@@ -29,5 +29,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  max-width: 1086px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
