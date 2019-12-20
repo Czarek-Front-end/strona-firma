@@ -1,7 +1,3 @@
-.header {
-  height: 100vh;
-}
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +25,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1086px;
   margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
