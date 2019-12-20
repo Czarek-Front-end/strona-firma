@@ -1,4 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: blue;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
 }
 /*# sourceMappingURL=main.css.map */
