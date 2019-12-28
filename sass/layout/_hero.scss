@@ -1,6 +1,7 @@
 
 .hero {
     margin-top: 1.6rem;
+    // height: 90vh;
 
 &__container {
     border-top: 1px solid rgba(0,0,0, 0.05);
@@ -61,8 +62,6 @@
 }
 .computer {
     z-index: 5;
-    margin-right: 10rem;
-    width: 35.3rem;
     padding-top: 5.3rem;
 }
 
@@ -76,8 +75,36 @@
     }
     &__box-container {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         margin-top: 4.2rem;
+    }
+    &__box {
+        height: 16.8rem;
+        width: 18.4rem;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0, 0.07);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem;
     }
 }
 
+.circle {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    background-color: $light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text {
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
