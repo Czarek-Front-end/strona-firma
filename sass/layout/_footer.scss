@@ -1,6 +1,6 @@
 .footer {
     font-size: 1.4rem;
-    background-color: #151617;
+    background-color: $color-primary-green;
     color: #fff;
     a {
         color: #fff;
@@ -33,7 +33,7 @@
 }
 
 .info-header  {
-    margin-bottom: 2.4rem;
+    margin: 2.4rem 0;
     font-weight: 600;
 }
 
