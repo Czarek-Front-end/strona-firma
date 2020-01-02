@@ -6,9 +6,10 @@
     border-top: 1px solid rgba(0,0,0, 0.05);
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 768px) {
         flex-direction: column;
         text-align: center;
+        border-top: none;
     }
 }
 
@@ -16,7 +17,7 @@
     font-size: 4rem;
     font-weight: 300;
     margin-top: 9.4rem;
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 768px) {
         font-size: 4.2rem;
     }
 
@@ -29,7 +30,7 @@
     font-weight: 300;
     margin-top: 0.8rem;
     color: $color-primary-dark;
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 768px) {
         font-size: 1.2rem;
     }
 }
@@ -43,7 +44,7 @@
     font-weight: 500;
     margin-top: 2.4rem;
     margin-bottom: 9.7rem;
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 768px) {
         margin-bottom: 0;
     }
 }
