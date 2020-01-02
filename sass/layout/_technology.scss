@@ -1,0 +1,20 @@
+.technology {
+&__container {
+    max-width: 80rem;
+    padding: 4.8rem 0;
+
+}
+
+&__icons {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    margin-top: 4rem;
+
+    }
+}
+
+.icon-tech {
+    flex-basis: 20%;
+    padding: 2rem 0;
+}
