@@ -2,7 +2,9 @@
 &__container {
     max-width: 80rem;
     padding: 4.8rem 0;
-
+    @media screen and (max-width: 670px) {
+        padding: 2rem;
+}
 }
 
 &__icons {
@@ -10,6 +12,7 @@
     flex-flow: row wrap;
     margin: 0 auto;
     margin-top: 4rem;
+    justify-content: center;
 
     }
 }

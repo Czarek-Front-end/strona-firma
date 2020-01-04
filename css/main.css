@@ -11,6 +11,12 @@ html {
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -166,6 +172,7 @@ h3 {
             box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
+    display: block;
   }
   .navigation__background {
     height: 6rem;
@@ -176,6 +183,7 @@ h3 {
     right: 2.6rem;
     z-index: 100;
     background-color: #13D04D;
+    display: block;
   }
   .navigation__checkbox:checked ~ .navigation__background {
     -webkit-transform: scale(80);
@@ -185,10 +193,6 @@ h3 {
     opacity: 1;
     width: 100%;
   }
-}
-
-.show {
-  display: block;
 }
 
 .hero {
@@ -463,6 +467,12 @@ h3 {
   padding: 4.8rem 0;
 }
 
+@media screen and (max-width: 670px) {
+  .technology__container {
+    padding: 2rem;
+  }
+}
+
 .technology__icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,6 +483,9 @@ h3 {
           flex-flow: row wrap;
   margin: 0 auto;
   margin-top: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icon-tech {
@@ -545,8 +558,14 @@ h3 {
 }
 
 .info-header {
-  margin: 2.4rem 0;
+  margin-bottom: 2.4rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 670px) {
+  .info-header {
+    margin-top: 2.4rem;
+  }
 }
 
 .info-header-text {
